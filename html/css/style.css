@@ -10,25 +10,12 @@ html,body{
 }
 
 
+header nav{
+	float:right;
+	margin-top: -200px;
 
-
-
-header nav.desktop ul li{
-	float:left;
-	font-size: 23px;
-	padding:0 20px;
-	font-style: italic;
 
 }
-
-header nav.desktop a{
-    color: black;
-    text-decoration: none;
-}
-header nav.desktop ul{
-	list-style-type: none;
-}
-
 
 nav.mobile{
 	margin-top:40px;
@@ -63,7 +50,21 @@ nav.mobile li a{
 	color: black;
 	text-decoration: none;
 }
+header nav.desktop ul li{
+	float:left;
+	font-size: 23px;
+	padding:0 20px;
+	font-style: italic;
 
+}
+
+header nav.desktop a{
+    color: black;
+    text-decoration: none;
+}
+header nav.desktop ul{
+	list-style-type: none;
+}
 section.banner{
 	overflow:hidden;
 	width: 100%;
